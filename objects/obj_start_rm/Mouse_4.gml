@@ -1,0 +1,2 @@
+
+room_goto(idrm)
