@@ -9,10 +9,7 @@
     "name": "taches",
     "path": "folders/Objets/Geant/taches.yy",
   },
-  "parentObjectId": {
-    "name": "obj_tache",
-    "path": "objects/obj_tache/obj_tache.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

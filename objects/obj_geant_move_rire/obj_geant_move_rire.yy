@@ -7,12 +7,17 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"move","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"True",},
+  ],
   "parent": {
     "name": "Geant",
     "path": "folders/Objets/Geant.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_geant_menbre",
+    "path": "objects/obj_geant_menbre/obj_geant_menbre.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

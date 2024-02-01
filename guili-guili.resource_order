@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
     {"name":"Game","order":3,"path":"folders/Objets/Game.yy",},
-    {"name":"autre","order":5,"path":"folders/Objets/Grue/autre.yy",},
     {"name":"alex_tetst","order":6,"path":"folders/Objets/Grue/alex_tetst.yy",},
+    {"name":"autre","order":5,"path":"folders/Objets/Grue/autre.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_Control","order":2,"path":"objects/obj_Control/obj_Control.yy",},

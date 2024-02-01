@@ -4,12 +4,18 @@
   "name": "obj_geant_ventre",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_ventre_tache_1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache02","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_ventre_tache_2",},
+  ],
   "parent": {
     "name": "Geant",
     "path": "folders/Objets/Geant.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_geant_menbre",
+    "path": "objects/obj_geant_menbre/obj_geant_menbre.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,5 +36,5 @@
     "path": "sprites/spr_ventre/spr_ventre.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

@@ -7,6 +7,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_move_rire","path":"objects/obj_geant_move_rire/obj_geant_move_rire.yy",},"propertyId":{"name":"angleMax_anim_rire","path":"objects/obj_geant_move_rire/obj_geant_move_rire.yy",},"value":"18.400002",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_move_rire","path":"objects/obj_geant_move_rire/obj_geant_move_rire.yy",},"propertyId":{"name":"angleRand_anim_rire","path":"objects/obj_geant_move_rire/obj_geant_move_rire.yy",},"value":"10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_pied_gauche_tache",},
   ],
   "parent": {
     "name": "Geant",

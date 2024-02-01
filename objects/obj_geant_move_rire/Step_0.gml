@@ -1,5 +1,5 @@
 
-
+/*
 if(global.ok != true){
 cont_anim_rire =  cont_anim_rire + 1.5/fps  /// 1.5 speed de n'anime
 if cont_anim_rire > 1 {

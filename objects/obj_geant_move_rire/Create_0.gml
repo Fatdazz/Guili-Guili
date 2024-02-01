@@ -1,3 +1,26 @@
+event_inherited();
+global.ok = false
+
+
+if(tache01 !=noone){
+	
+	var _inst = instance_create_layer(x,y,"Tache",tache01)
+	sprite_set_offset(tache01.sprite_index ,sprite_get_xoffset(sprite_index),sprite_get_yoffset(sprite_index));
+	_inst.x = _inst.x + sprite_get_xoffset(sprite_index)
+	_inst.y = _inst.y + sprite_get_yoffset(sprite_index)
+}
+if(tache02!=noone){
+	
+	var _inst = instance_create_layer(x,y,"Tache",tache02)
+	sprite_set_offset(_inst.sprite_index ,sprite_get_xoffset(sprite_index),sprite_get_yoffset(sprite_index));
+	
+}
+
+x = x + sprite_get_xoffset(sprite_index)
+y = y + sprite_get_yoffset(sprite_index)
+
+/*
+
 var _curvestruct = animcurve_get(ani_moveCorp);
 
 _channel = animcurve_get_channel(_curvestruct,"Jambe")

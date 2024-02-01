@@ -7,7 +7,7 @@ with(_inst){
 	image_xscale = other.image_xscale;
 	image_yscale = other.image_yscale;
 }
-*/
+/// ici
 create_membre_geant(spr_bras_droit,obj_geant_av_bras_d)
 create_membre_geant(spr_bras_gauche,obj_geant_av_bras_g)
 create_membre_geant(spr_cuisse,obj_geant_cuisse)

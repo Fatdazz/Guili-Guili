@@ -10,8 +10,8 @@
     "path": "folders/Objets/Geant.yy",
   },
   "parentObjectId": {
-    "name": "obj_geant_move_rire",
-    "path": "objects/obj_geant_move_rire/obj_geant_move_rire.yy",
+    "name": "obj_geant_menbre",
+    "path": "objects/obj_geant_menbre/obj_geant_menbre.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
