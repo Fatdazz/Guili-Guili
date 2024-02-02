@@ -22,5 +22,9 @@ var i = animcurve_channel_evaluate(_channel,ht);
 var _c = make_color_hsv(i,100,200)
 
 draw_pie(x  , y   , 1 - ht  , 1 , _c , 30, 1)
-
-draw_sprite_ext(spr_joint_off,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1)
+if(global.listRotule[global.game.select_plyer1]==id){
+	draw_sprite_ext(spr_joint_on,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1)
+}
+else{
+	draw_sprite_ext(spr_joint_off,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1)
+}

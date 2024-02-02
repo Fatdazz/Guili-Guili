@@ -4,7 +4,9 @@
   "name": "obj_geant_jambe_d",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_jambe_droite_tache",},
+  ],
   "parent": {
     "name": "Geant",
     "path": "folders/Objets/Geant.yy",

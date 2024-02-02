@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+global.input = id
 
 var gp_num = gamepad_get_device_count();
 for (var i = 0; i < gp_num; i++;)

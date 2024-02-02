@@ -4,7 +4,10 @@
   "name": "obj_geant_jambe_g",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_jambe_gauche_tache_1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache02","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_jambe_gauche_tache_2",},
+  ],
   "parent": {
     "name": "Geant",
     "path": "folders/Objets/Geant.yy",
