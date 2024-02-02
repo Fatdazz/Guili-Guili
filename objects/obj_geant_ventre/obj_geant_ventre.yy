@@ -36,5 +36,5 @@
     "path": "sprites/spr_ventre/spr_ventre.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
