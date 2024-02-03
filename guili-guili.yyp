@@ -203,6 +203,7 @@
     {"id":{"name":"rm_alex","path":"rooms/rm_alex/rm_alex.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_game_02","path":"rooms/rm_game_02/rm_game_02.yy",},},
     {"roomId":{"name":"rm_camionAlex","path":"rooms/rm_camionAlex/rm_camionAlex.yy",},},
     {"roomId":{"name":"rm_particule","path":"rooms/rm_particule/rm_particule.yy",},},
     {"roomId":{"name":"rm_geant","path":"rooms/rm_geant/rm_geant.yy",},},
@@ -212,7 +213,6 @@
     {"roomId":{"name":"rm_meme","path":"rooms/rm_meme/rm_meme.yy",},},
     {"roomId":{"name":"rm_camion","path":"rooms/rm_camion/rm_camion.yy",},},
     {"roomId":{"name":"rm_phi","path":"rooms/rm_phi/rm_phi.yy",},},
-    {"roomId":{"name":"rm_game_02","path":"rooms/rm_game_02/rm_game_02.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

@@ -4,7 +4,7 @@
 
 
 render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
-physics_world_draw_debug(render_flags);
+//physics_world_draw_debug(render_flags);
 
 /*
 draw_text(10,30, "joint_reaction_force_x - y: " + string(physics_joint_get_value(joint, phy_joint_reaction_force_x ) ) + " - " + string(physics_joint_get_value(joint, phy_joint_reaction_force_x ) ) );
