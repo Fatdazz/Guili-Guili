@@ -1,5 +1,6 @@
 event_inherited();
-global.ok = true
+global.ok = false
+
 
 
 if(tache01 !=noone){
