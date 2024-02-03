@@ -2,6 +2,7 @@
   "FolderOrderSettings": [
     {"name":"Game","order":6,"path":"folders/Objets/Game.yy",},
     {"name":"Geant","order":8,"path":"folders/Objets/Geant.yy",},
+    {"name":"membres","order":4,"path":"folders/Objets/Geant/membres.yy",},
     {"name":"taches","order":3,"path":"folders/Objets/Geant/taches.yy",},
     {"name":"alex_tetst","order":6,"path":"folders/Objets/Grue/alex_tetst.yy",},
     {"name":"autre","order":5,"path":"folders/Objets/Grue/autre.yy",},
@@ -9,7 +10,6 @@
     {"name":"input","order":2,"path":"folders/Objets/input.yy",},
     {"name":"Physics","order":3,"path":"folders/Objets/Physics.yy",},
     {"name":"Player_02","order":7,"path":"folders/Objets/Player_02.yy",},
-    {"name":"membres","order":4,"path":"folders/Objets/Geant/membres.yy",},
     {"name":"particule","order":3,"path":"folders/Sprites/particule.yy",},
   ],
   "ResourceOrderSettings": [
@@ -34,6 +34,7 @@
     {"name":"spr_Player_02","order":4,"path":"sprites/spr_Player_02/spr_Player_02.yy",},
     {"name":"obj_bras03","order":1,"path":"objects/obj_bras03/obj_bras03.yy",},
     {"name":"Part_sang","order":1,"path":"particles/Part_sang/Part_sang.yy",},
+    {"name":"ani_player02","order":1,"path":"animcurves/ani_player02/ani_player02.yy",},
     {"name":"Sprite47","order":3,"path":"sprites/Sprite47/Sprite47.yy",},
     {"name":"Spr_Game","order":5,"path":"sprites/Spr_Game/Spr_Game.yy",},
     {"name":"obj_geant_ventre","order":12,"path":"objects/obj_geant_ventre/obj_geant_ventre.yy",},
