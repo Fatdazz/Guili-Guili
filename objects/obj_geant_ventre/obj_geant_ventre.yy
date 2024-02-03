@@ -9,8 +9,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache02","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_ventre_tache_2",},
   ],
   "parent": {
-    "name": "Geant",
-    "path": "folders/Objets/Geant.yy",
+    "name": "membres",
+    "path": "folders/Objets/Geant/membres.yy",
   },
   "parentObjectId": {
     "name": "obj_geant_menbre",

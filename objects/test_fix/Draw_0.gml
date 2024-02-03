@@ -4,7 +4,7 @@
 
 
 render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
-//physics_world_draw_debug(render_flags);
+physics_world_draw_debug(render_flags);
 
 /*
 draw_text(10,30, "joint_reaction_force_x - y: " + string(physics_joint_get_value(joint, phy_joint_reaction_force_x ) ) + " - " + string(physics_joint_get_value(joint, phy_joint_reaction_force_x ) ) );
@@ -33,10 +33,11 @@ for(var i= 0; i < instance_number(test_rotule); i +=1){
 
 //draw_sprite_ext(spr_1px,0,x,y,164/2,4,-physics_joint_get_value(id.joint,phy_joint_angle) *180/pi, c_white,1);
 */
-draw_sprite_ext(str_joint_back,0,x,y,1,1,image_angle,c_white,1);
+draw_self()
+draw_sprite_ext(str_joint_back,0,x + rotule_x,y + rotule_y,scale_rotule,scale_rotule,image_angle,c_white,1);
 if(global.listRotule[global.game.select_plyer1]==id){
-	draw_sprite_ext(spr_joint_on,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1)
+	draw_sprite_ext(spr_joint_on,0,x + rotule_x,y + rotule_y,scale_rotule,scale_rotule,image_angle,c_white,1)
 }
 else{
-	draw_sprite_ext(spr_joint_off,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1)
+	draw_sprite_ext(spr_joint_off,0,x + rotule_x,y + rotule_y,scale_rotule,scale_rotule,image_angle,c_white,1)
 }

@@ -6,14 +6,15 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_tete_tache",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"depth_info","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"0",},
   ],
   "parent": {
-    "name": "Geant",
-    "path": "folders/Objets/Geant.yy",
+    "name": "membres",
+    "path": "folders/Objets/Geant/membres.yy",
   },
   "parentObjectId": {
-    "name": "obj_geant_menbre",
-    "path": "objects/obj_geant_menbre/obj_geant_menbre.yy",
+    "name": "obj_geant_move_rire",
+    "path": "objects/obj_geant_move_rire/obj_geant_move_rire.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Geant",
-    "path": "folders/Objets/Geant.yy",
+    "name": "membres",
+    "path": "folders/Objets/Geant/membres.yy",
   },
   "parentObjectId": {
     "name": "obj_geant_menbre",

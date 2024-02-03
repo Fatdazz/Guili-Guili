@@ -9,7 +9,10 @@
     "name": "guili-guili",
     "path": "guili-guili.yyp",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_tache",
+    "path": "objects/obj_tache/obj_tache.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

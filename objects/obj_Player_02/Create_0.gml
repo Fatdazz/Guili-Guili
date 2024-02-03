@@ -2,7 +2,6 @@
 // Vous pouvez écrire votre code dans cet éditeur
  x = global.listRotule[0].x
  y = global.listRotule[0].y 
- tempselect = 0 ;
  isMove = false
  t = 60
  image_yscale = 1.5

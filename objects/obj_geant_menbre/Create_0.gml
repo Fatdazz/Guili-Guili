@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+depth = depth_info // regarde ici pour integation dans hgame 
 var _num  = instance_number(obj_geant_full)
 for(var i = 0; i < _num; i++){
 	
@@ -13,10 +14,13 @@ for(var i = 0; i < _num; i++){
 }
 if(!move and tache01!=noone){
 	
-	instance_create_layer(x,y,"Tache",tache01)
+
+	instance_create_depth(x,y,-1,tache01)
 }
 if(!move and tache02!=noone){
 	
-	instance_create_layer(x,y,"Tache",tache02)
+	instance_create_depth(x,y,depth -1,tache02)
 
 }
+
+show_debug_message("depth membre :  " + string(depth))

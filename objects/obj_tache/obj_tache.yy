@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "taches",
-    "path": "folders/Objets/Geant/taches.yy",
+    "name": "Geant",
+    "path": "folders/Objets/Geant.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,7 +29,7 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"isMove","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"obj_IdMere","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"obj_IdMere","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spr_idMere","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
   ],
   "solid": true,

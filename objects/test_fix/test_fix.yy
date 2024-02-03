@@ -11,7 +11,10 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":37,"eventType":9,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"rotule_x","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"447",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"rotule_y","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"93",},
+  ],
   "parent": {
     "name": "alex_tetst",
     "path": "folders/Objets/Grue/alex_tetst.yy",
@@ -41,8 +44,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite45",
-    "path": "sprites/Sprite45/Sprite45.yy",
+    "name": "spr_joueur1_lutin",
+    "path": "sprites/spr_joueur1_lutin/spr_joueur1_lutin.yy",
   },
   "spriteMaskId": null,
   "visible": true,
