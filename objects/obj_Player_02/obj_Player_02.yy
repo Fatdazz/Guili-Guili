@@ -37,5 +37,5 @@
     "path": "sprites/spr_Player_02/spr_Player_02.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

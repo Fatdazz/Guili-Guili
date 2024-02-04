@@ -29,11 +29,13 @@ var rotule = instance_create_layer(_rotule_x + newX, _rotule_y + newY, layer,tes
 		spr_print : _spr_truss,
 		scale_print : _scale_truss,
 		phy_rotation : -45,
+		angleMax : 30,
+		angleMin : -60,
 		
 	});
 	
 		
-joint = physics_joint_revolute_create(id, rotule, _rotule_x , _rotule_y , 00, 0, true, 60000,-60000, true, false);
+joint = physics_joint_revolute_create(id, rotule, _rotule_x , _rotule_y , -0.1, 0.2, true, 90000,-1000, true, false);
 
 //physics_joint_set_value(joint, phy_joint_upper_angle_limit, 0);
 //physics_joint_set_value(joint, phy_joint_lower_angle_limit, 0);

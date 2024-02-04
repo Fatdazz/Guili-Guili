@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "alex_tetst",
-    "path": "folders/Objets/Grue/alex_tetst.yy",
+    "name": "joueurs",
+    "path": "folders/Sprites/joueurs.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

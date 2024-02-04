@@ -28,3 +28,5 @@ if(global.listRotule[global.game.select_plyer1]==id){
 else{
 	draw_sprite_ext(spr_joint_off,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1)
 }
+
+fct_draw_rotuleAngle()

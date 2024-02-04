@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Script3",
+  "name": "fct_draw_rotuleAngle",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
