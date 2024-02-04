@@ -10,11 +10,40 @@ var _text = "angle select du player 1 : " + string(angle);
 _text = "angleMax: " + string(_rotule.angleMax) + " angleMin: " + string(_rotule.angleMin)
 		+ " angleSup: " + string(_rotule.angleSup) + " angleInf: " + string(_rotule.angleInf)
 //draw_self()
+//draw_text(10,10,_text)
+draw_text(10, 5 , " ===== Info Box 2d ====")
+draw_text(10, 20 , "  ==== Moteur === ")
+_text = "phy_joint_max_motor_force: " + string(physics_joint_get_value(_rotule.joint, phy_joint_max_motor_force))
+draw_text(10,40,_text)
+_text = "phy_joint_max_motor_torque: " + string(physics_joint_get_value(_rotule.joint, phy_joint_max_motor_torque))
+draw_text(10,60,_text)
+_text = "phy_joint_motor_force: " + string(physics_joint_get_value(_rotule.joint, phy_joint_upper_angle_limit))
+draw_text(10,80,_text)
+_text = "phy_joint_motor_speed: " + string(physics_joint_get_value(_rotule.joint, phy_joint_motor_speed))
+draw_text(10,100,_text)
+_text = "phy_joint_motor_torque: " + string(physics_joint_get_value(_rotule.joint, phy_joint_motor_torque))
+draw_text(10,120, _text)
+draw_text(10, 140 , "  ==== General === ")
 
-draw_text(10,10,_text)
- _text = "phy_joint_upper_angle_limit: " + string(physics_joint_get_value(_rotule.joint, phy_joint_upper_angle_limit)) 
+_text = "phy_joint_angle: " + string(physics_joint_get_value(_rotule.joint, phy_joint_angle))
+draw_text(10,160,_text)
+
+_text = "phy_joint_reaction_force_x: " + string(physics_joint_get_value(_rotule.joint, phy_joint_reaction_force_x))
+draw_text(10,180,_text)
+_text = "phy_joint_reaction_force_y: " + string(physics_joint_get_value(_rotule.joint, phy_joint_reaction_force_y))
+draw_text(10,200,_text)
+_text = "phy_joint_reaction_torque: " + string(physics_joint_get_value(_rotule.joint, phy_joint_reaction_torque	))
+draw_text(10,220,_text)
+
+
+
+
+
+
+
+/* _text = "phy_joint_upper_angle_limit: " + string(physics_joint_get_value(_rotule.joint, phy_joint_upper_angle_limit)) 
 		+ "phy_joint_lower_angle_limit: " + string(physics_joint_get_value(_rotule.joint,phy_joint_lower_angle_limit));
 
 draw_text(10,30,_text)
 _text = "Angle de la rotule: " + string(physics_joint_get_value(_rotule.joint, phy_joint_angle))
-draw_text(10,50,_text)
+draw_text(10,50,_text)*/

@@ -73,5 +73,5 @@ if(instance_number(test_rotule)< 3 ) {
 			angleMax : _angleMax,
 			angleMin : _angleMin,
 		});
-	joint = physics_joint_revolute_create(id, rotule, x , y ,-0.1, 0.2, true, 90000,-1000, true, false);
+	joint = physics_joint_revolute_create(id, rotule, x , y ,-1, 0.1, true, 0,0, false, false);// 90000,-1000
 }
