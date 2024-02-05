@@ -44,3 +44,6 @@ var angle = physics_joint_get_value(joint, phy_joint_angle)*180/pi;
 phy_speed_x = 0.0;
 
 instance_create_layer(x,y,"Player02",obj_Player_02)
+cont_vibration = 0; 
+var _curvestruct = animcurve_get(ani_player01);
+_channel = animcurve_get_channel(_curvestruct,"vibrationY")

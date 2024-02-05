@@ -58,6 +58,7 @@
     {"name":"obj_laugh","order":5,"path":"objects/obj_laugh/obj_laugh.yy",},
     {"name":"obj_tache","order":6,"path":"objects/obj_tache/obj_tache.yy",},
     {"name":"obj_geant_main_g","order":8,"path":"objects/obj_geant_main_g/obj_geant_main_g.yy",},
+    {"name":"ani_player01","order":2,"path":"animcurves/ani_player01/ani_player01.yy",},
     {"name":"solo2","order":3,"path":"sounds/solo2/solo2.yy",},
   ],
 }

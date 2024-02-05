@@ -43,3 +43,13 @@ else{
 }
 
 fct_draw_rotuleAngle()
+
+
+var _valeur = animcurve_channel_evaluate(_channel, cont_vibration);
+if(	sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration)) != 
+	sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))
+	){
+		
+	draw_text(1500, 10, string(sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration))))	
+	}
+part_system_create()

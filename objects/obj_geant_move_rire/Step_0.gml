@@ -4,7 +4,7 @@ if(global.ok){
 if(fps>1) cont_anim_rire =  cont_anim_rire + 1/fps  /// 1.5 speed de n'anime
 	if cont_anim_rire > 1 {
 		rand_anim_rire = random(angleRand_anim_rire) + angleMax_anim_rire ;  
-		cont_anim_rire = 	cont_anim_rire mod 1; // en boucle 	
+		cont_anim_rire = cont_anim_rire mod 1; // en boucle 	
 	}
 
 
