@@ -48,8 +48,15 @@ fct_draw_rotuleAngle()
 var _valeur = animcurve_channel_evaluate(_channel, cont_vibration);
 if(	sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration)) != 
 	sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))
-	){
-		
+	)
+	{
 	draw_text(1500, 10, string(sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration))))	
 	}
-part_system_create()
+
+if(sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))==1){
+	var part = part_system_create(Part_moto)
+	part_system_position(part,x,y)
+}
+	
+
+

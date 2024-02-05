@@ -49,5 +49,4 @@ cont_vibration = 0;
 var _curvestruct = animcurve_get(ani_player01);
 _channel = animcurve_get_channel(_curvestruct,"vibrationY")
 
-
-alarm[0] = 90
+particule_systeme  = part_system_create_layer(layer,0)

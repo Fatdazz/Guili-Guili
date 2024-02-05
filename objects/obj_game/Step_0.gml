@@ -83,11 +83,11 @@ if(global.input.button_J2_serrage and not _player02.isMove){
 	else{
 		var _curvestruct = animcurve_get(ani_rotule);
 		var _channel = animcurve_get_channel(_curvestruct,"add_gauge");
-		var i = animcurve_channel_evaluate(_channel, alarm[0]/40);
+		var i = animcurve_channel_evaluate(_channel, alarm[0]/50)/5;
 		addGauge = i;
 		global.listRotule[select_plyer2].gauge = global.listRotule[select_plyer2].gauge + i
 	}
 	
 	
-	alarm[0] = 40;
+	alarm[0] = 50;
 }
