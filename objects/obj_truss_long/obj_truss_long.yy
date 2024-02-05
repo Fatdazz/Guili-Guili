@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_infoJoint","path":"objects/obj_infoJoint/obj_infoJoint.yy",},"propertyId":{"name":"phy_rotation_suit","path":"objects/obj_infoJoint/obj_infoJoint.yy",},"value":"100",},
   ],
   "parent": {
-    "name": "Grue",
-    "path": "folders/Objets/Grue.yy",
+    "name": "autre",
+    "path": "folders/Objets/Grue/autre.yy",
   },
   "parentObjectId": {
     "name": "obj_infoJoint",

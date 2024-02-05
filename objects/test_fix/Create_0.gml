@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+event_inherited()
 global.listRotule = array_create(4,noone);
 global.listRotule[0] = id;
 image_xscale = scale_print;
@@ -47,3 +48,6 @@ instance_create_layer(x,y,"Player02",obj_Player_02)
 cont_vibration = 0; 
 var _curvestruct = animcurve_get(ani_player01);
 _channel = animcurve_get_channel(_curvestruct,"vibrationY")
+
+
+alarm[0] = 90

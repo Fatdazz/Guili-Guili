@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+event_inherited();
 global.listRotule[idRotule] = id;
 joint = noone;
 phy_fixed_rotation = false;

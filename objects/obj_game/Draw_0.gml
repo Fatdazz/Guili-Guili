@@ -36,8 +36,24 @@ _text = "phy_joint_reaction_torque: " + string(physics_joint_get_value(_rotule.j
 draw_text(10,220,_text)
 
 
+draw_text(10, 260 , " ===== Gauge ====")
 
-
+for(var i = 0; i < array_length(global.listRotule); i++){
+	_rotule = global.listRotule[i]
+	if(global.listRotule[i] == global.listRotule[select_plyer2])
+	{
+	_text = "rotule " + string(_rotule.idRotule) + " Gauge: " +  string(_rotule.gauge);
+	draw_text(10,280 + i*20,_text)
+	draw_set_color(c_red)
+	draw_text(215, 280 + i*20,addGauge)
+	draw_set_color(c_white)
+	}
+	else{
+	_text = "rotule " + string(_rotule.idRotule) + " Gauge: " +  string(_rotule.gauge);
+	draw_text(10,280 + i*20,_text)
+	}
+	
+}
 
 
 

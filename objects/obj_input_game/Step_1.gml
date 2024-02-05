@@ -30,3 +30,6 @@ if(keyboard_check_pressed(vk_right)){
 if(keyboard_check_pressed(vk_left)){
 	button_J2_pre = true
 }
+if(keyboard_check_pressed(vk_enter)){
+	button_J2_serrage = true	
+}

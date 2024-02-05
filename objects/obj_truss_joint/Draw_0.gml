@@ -11,7 +11,7 @@ draw_self();
 //draw_pie(x   , y   , 1 - join_friction , 1 , _channel, 10, 1)
 
  
-var _curvestruct = animcurve_get(ani_draw_pie);
+var _curvestruct = animcurve_get(ani_rotule);
 var _channel = animcurve_get_channel(_curvestruct,"color H");
 var i = animcurve_channel_evaluate(_channel,ht);
 var _c = make_color_hsv(i,100,200)

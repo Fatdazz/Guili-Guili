@@ -3,7 +3,6 @@
 
 
 
-
 var _valeur = animcurve_channel_evaluate(_channel, cont_vibration);
 
 //y = y - 20*_valeur;

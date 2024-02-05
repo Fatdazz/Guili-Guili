@@ -193,7 +193,7 @@
     {"id":{"name":"obj_geant_main_g","path":"objects/obj_geant_main_g/obj_geant_main_g.yy",},},
     {"id":{"name":"ani_player01","path":"animcurves/ani_player01/ani_player01.yy",},},
     {"id":{"name":"obj_main_droite_tache","path":"objects/obj_main_droite_tache/obj_main_droite_tache.yy",},},
-    {"id":{"name":"ani_draw_pie","path":"animcurves/ani_draw_pie/ani_draw_pie.yy",},},
+    {"id":{"name":"ani_rotule","path":"animcurves/ani_rotule/ani_rotule.yy",},},
     {"id":{"name":"titre5","path":"sounds/titre5/titre5.yy",},},
     {"id":{"name":"rm_camion","path":"rooms/rm_camion/rm_camion.yy",},},
     {"id":{"name":"solo2","path":"sounds/solo2/solo2.yy",},},
@@ -204,8 +204,8 @@
     {"id":{"name":"rm_alex","path":"rooms/rm_alex/rm_alex.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_game_02","path":"rooms/rm_game_02/rm_game_02.yy",},},
     {"roomId":{"name":"rm_camionAlex","path":"rooms/rm_camionAlex/rm_camionAlex.yy",},},
+    {"roomId":{"name":"rm_game_02","path":"rooms/rm_game_02/rm_game_02.yy",},},
     {"roomId":{"name":"rm_particule","path":"rooms/rm_particule/rm_particule.yy",},},
     {"roomId":{"name":"rm_geant","path":"rooms/rm_geant/rm_geant.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},

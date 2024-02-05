@@ -16,12 +16,14 @@ draw_sprite_ext(sprite_index,0,	_x ,
 /// Joint 
 draw_sprite_ext(str_joint_back,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1);
 
-var _curvestruct = animcurve_get(ani_draw_pie);
-var _channel = animcurve_get_channel(_curvestruct,"color H");
-var i = animcurve_channel_evaluate(_channel,ht);
+var _curvestruct = animcurve_get(ani_rotule);
+var _channel = animcurve_get_channel(_curvestruct,"draw pie color H");
+var i = animcurve_channel_evaluate(_channel,gauge/gaugeMax);
 var _c = make_color_hsv(i,100,200)
 
-draw_pie(x  , y   , 1 - ht  , 1 , _c , 30, 1)
+
+
+draw_pie(x  , y   , 1 - gauge/gaugeMax  , 1 , _c , 30, 1)
 if(global.listRotule[global.game.select_plyer1]==id){
 	draw_sprite_ext(spr_joint_on,0,x,y,scale_rotule,scale_rotule,image_angle,c_white,1)
 }

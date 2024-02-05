@@ -10,4 +10,5 @@ button_J1_up_r = false;
 
 button_J2_next = false;
 button_J2_pre = false;
+button_J2_serrage = false;
 
