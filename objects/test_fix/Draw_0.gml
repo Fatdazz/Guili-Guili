@@ -55,7 +55,9 @@ if(	sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurv
 
 if(sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))==1){
 	var part = part_system_create(Part_moto)
-	part_system_position(part,x,y)
+	var _dy = 312 - sprite_height/2
+	var _dx = 100 - sprite_width/2 
+	part_system_position(part,x+_dx,y+_dy)
 }
 	
 
