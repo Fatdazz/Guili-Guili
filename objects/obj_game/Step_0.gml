@@ -57,6 +57,14 @@ if(global.input.button_J1_up_r)
 		
 }
 
+var _player01  = instance_find(test_fix,0)
+if(global.input.button_J1_right){
+		_player01.phy_speed_x = 5 ;
+}
+if(global.input.button_J1_left){
+		_player01.phy_speed_x = -5 ;
+}
+
 var _player02  = instance_find(obj_Player_02,0)
 if(not _player02.isMove  and global.input.button_J2_next and not global.input.button_J2_pre and select_plyer2 !=3){
 	

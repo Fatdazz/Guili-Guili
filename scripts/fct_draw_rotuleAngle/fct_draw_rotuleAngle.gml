@@ -20,10 +20,10 @@ function fct_draw_rotuleAngle(){
 	draw_set_color(c_blue);
 	draw_arrow(_x,_y,_maxX,_maxY,10)
 	draw_set_color(c_white)	
-	draw_text(1050, 20*idRotule + 10, "id:" + string(idRotule) + " angleMax: " + string(angleMin))
+	draw_text(1050, 20*idRotule + 10, "id:" + string(idRotule) + " angleMax: " + string(angleMax) + + " angleMin: " + string(angleMin))
 	
-	var _minX = lengthdir_y(80,-_rotuleOther.ange_init - angleMin - (image_angle + ange_init )) +_x // bug je pence 
-	var _minY = lengthdir_y(80,-_rotuleOther.ange_init - angleMin - (image_angle + ange_init )) +_y
+	var _minX = lengthdir_x(80,-_rotuleOther.ange_init - angleMin + (image_angle + ange_init ) ) +_x // bug je pence 
+	var _minY = lengthdir_y(80,-_rotuleOther.ange_init - angleMin + (image_angle + ange_init ) ) +_y
 	
 	draw_set_color(c_purple);
 	draw_arrow(_x,_y,_minX,_minY,10)

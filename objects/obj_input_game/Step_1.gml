@@ -19,6 +19,13 @@ if( keyboard_check(ord("W")) || gamepad_axis_value(0,gp_axislv) > 0.5){
 }
 if(keyboard_check_released(ord("W"))) button_J1_up_r = true
 
+if(  keyboard_check(ord("Z"))){
+	button_J1_left = true;
+}
+if(  keyboard_check(ord("X"))){
+	button_J1_right = true;
+}
+
 if(keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0,gp_face1)){
 }
 

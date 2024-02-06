@@ -7,6 +7,9 @@ button_J1_down = false;
 button_J1_up = false;
 button_J1_down_r = false;
 button_J1_up_r = false;
+button_J1_left = false;
+button_J1_right = false;
+
 
 button_J2_next = false;
 button_J2_pre = false;

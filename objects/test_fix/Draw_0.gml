@@ -4,7 +4,7 @@
 
 
 render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
-//physics_world_draw_debug(render_flags);
+physics_world_draw_debug(render_flags);
 
 /*
 draw_text(10,30, "joint_reaction_force_x - y: " + string(physics_joint_get_value(joint, phy_joint_reaction_force_x ) ) + " - " + string(physics_joint_get_value(joint, phy_joint_reaction_force_x ) ) );
@@ -49,16 +49,13 @@ var _valeur = animcurve_channel_evaluate(_channel, cont_vibration);
 if(	sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration)) != 
 	sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))
 	)
-	{
+{
 	draw_text(1500, 10, string(sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration))))	
-	}
-
-if(sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))==1){
+	
+	if(sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))==-1){
 	var part = part_system_create(Part_moto)
 	var _dy = 312 - sprite_height/2
 	var _dx = 100 - sprite_width/2 
 	part_system_position(part,x+_dx,y+_dy)
+		}
 }
-	
-
-

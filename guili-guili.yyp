@@ -199,6 +199,7 @@
     {"id":{"name":"solo2","path":"sounds/solo2/solo2.yy",},},
     {"id":{"name":"obj_input_game","path":"objects/obj_input_game/obj_input_game.yy",},},
     {"id":{"name":"rm_geant","path":"rooms/rm_geant/rm_geant.yy",},},
+    {"id":{"name":"obj_sensor_move","path":"objects/obj_sensor_move/obj_sensor_move.yy",},},
     {"id":{"name":"titre4","path":"sounds/titre4/titre4.yy",},},
     {"id":{"name":"spr_truss_joint","path":"sprites/spr_truss_joint/spr_truss_joint.yy",},},
     {"id":{"name":"rm_alex","path":"rooms/rm_alex/rm_alex.yy",},},
