@@ -1,6 +1,8 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
+_torque = 150000
+_speed = 50000
 
 if(global.input.button_J1_pre and not global.input.button_J1_next and select_plyer1 !=0){
 	
@@ -16,9 +18,9 @@ if(global.input.button_J1_down and not global.input.button_J1_up){
 	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _rotule.angleMax);
 	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _rotule.angleMin);
 	physics_joint_enable_motor(_rotule.joint, true)
-	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, 3000);
-	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, 1000);
-	
+	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _torque);
+	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, _speed);
+	show_debug_message("button down")
 	
 }
 if(global.input.button_J1_down_r)
@@ -43,8 +45,10 @@ if(not global.input.button_J1_down and global.input.button_J1_up){
 	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _rotule.angleMax);
 	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _rotule.angleMin);
 	physics_joint_enable_motor(_rotule.joint, true)
-	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, 3000);
-	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, -1000);
+	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _torque)
+	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, -_speed);
+	show_debug_message("button up")
+	
 }
 
 if(global.input.button_J1_up_r) 
@@ -53,7 +57,7 @@ if(global.input.button_J1_up_r)
 	var _angle = physics_joint_get_value(_rotule.joint, phy_joint_angle)*180/pi;
 	physics_joint_enable_motor(_rotule.joint, false)
 	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _angle + 0.1);
-	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _angle - 1);
+	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _angle - 0.2);
 		
 }
 

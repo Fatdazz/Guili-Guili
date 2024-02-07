@@ -7,25 +7,29 @@ if(tache01 !=noone){
 	
 	var _inst = instance_create_depth(x,y,depth -1,tache01)
 	sprite_set_offset(tache01.sprite_index ,sprite_get_xoffset(sprite_index),sprite_get_yoffset(sprite_index));
-	_inst.x = _inst.x + sprite_get_xoffset(sprite_index)
-	_inst.y = _inst.y + sprite_get_yoffset(sprite_index)
+	_inst.x = _inst.x + (sprite_get_xoffset(sprite_index)) * image_xscale; 
+	_inst.y = _inst.y + (sprite_get_yoffset(sprite_index)) * image_yscale;
 	_inst.obj_IdMere = id
 	_inst.isMove = true
+	_inst.image_xscale = image_xscale;
+	_inst.image_yscale = image_yscale;
 }
 if(tache02!=noone){
 	
 	var _inst = instance_create_depth(x,y,depth -1,tache02)
 	sprite_set_offset(_inst.sprite_index ,sprite_get_xoffset(sprite_index),sprite_get_yoffset(sprite_index));
-	_inst.x = _inst.x + sprite_get_xoffset(sprite_index)
-	_inst.y = _inst.y + sprite_get_yoffset(sprite_index)
+	_inst.x = _inst.x + sprite_get_xoffset(sprite_index) * image_xscale 
+	_inst.y = _inst.y + sprite_get_yoffset(sprite_index) * image_yscale
 	_inst.obj_IdMere = id
 	_inst.isMove = true
+	_inst.image_xscale = image_xscale;
+	_inst.image_yscale = image_yscale;
 	
 	
 }
 
-x = x + sprite_get_xoffset(sprite_index)
-y = y + sprite_get_yoffset(sprite_index)
+x = x + sprite_get_xoffset(sprite_index)*image_xscale
+y = y + sprite_get_yoffset(sprite_index)*image_yscale
 
 
 

@@ -3,6 +3,3 @@
 //layer =  layer_get_id("Taches")
 
 image_alpha = 1;
-if(isMove){
-	
-}

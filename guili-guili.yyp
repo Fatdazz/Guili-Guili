@@ -205,8 +205,8 @@
     {"id":{"name":"rm_alex","path":"rooms/rm_alex/rm_alex.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_camionAlex","path":"rooms/rm_camionAlex/rm_camionAlex.yy",},},
     {"roomId":{"name":"rm_game_02","path":"rooms/rm_game_02/rm_game_02.yy",},},
+    {"roomId":{"name":"rm_camionAlex","path":"rooms/rm_camionAlex/rm_camionAlex.yy",},},
     {"roomId":{"name":"rm_particule","path":"rooms/rm_particule/rm_particule.yy",},},
     {"roomId":{"name":"rm_geant","path":"rooms/rm_geant/rm_geant.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},

@@ -38,20 +38,20 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_print_1","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_truss","varType":5,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_scale_print_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.35","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_scale_print_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.53","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_scale_rotule_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.75","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_spr_2","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_truss","varType":5,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_scale_print_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.25","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_scale_print_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.35","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_scale_rotule_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.65","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_objMain","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_main","varType":5,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMax_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"45","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMax_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"90","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMin_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-42","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMin_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-42","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMax_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"78","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMax_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"10","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMin_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-4","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMin_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-10","varType":0,},
   ],
   "solid": false,
   "spriteId": {

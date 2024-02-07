@@ -15,11 +15,18 @@ for(var i = 0; i < _num; i++){
 if(!move and tache01!=noone){
 	
 
-	instance_create_depth(x,y,-1,tache01)
+	instance_create_depth(x,y,-1,tache01,{
+		image_xscale: image_xscale,
+		image_yscale : image_yscale
+	})
 }
 if(!move and tache02!=noone){
 	
-	instance_create_depth(x,y,depth -1,tache02)
+	instance_create_depth(x,y,depth -1,tache02,{
+		image_xscale : image_xscale,
+		image_yscale : image_yscale
+		
+	})
 
 }
 

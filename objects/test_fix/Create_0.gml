@@ -6,7 +6,7 @@ global.listRotule[0] = id;
 image_xscale = scale_print;
 image_yscale = scale_print;
 var _spr_truss = spr_truss
-var _scale_truss = 0.5
+var _scale_truss = 0.6
 
 var _rotule_x = x - sprite_width/2 + rotule_x; // position rotule sur moto
 var _rotule_y = y - sprite_height/2 + rotule_y;
@@ -28,10 +28,11 @@ var rotule = instance_create_layer(_rotule_x + newX, _rotule_y + newY, layer,tes
 	{
 		idRotule : idRotule+1,
 		spr_print : _spr_truss,
-		scale_print : _scale_truss,
+		scale_printX : _scale_truss*0.8,
+		scale_printY : _scale_truss,
 		phy_rotation : -45,
-		angleMax : 30,
-		angleMin : -60,
+		angleMax : 54, // premier rotule
+		angleMin : -18,
 		
 	});
 	
