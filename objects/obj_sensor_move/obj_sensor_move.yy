@@ -27,9 +27,9 @@
   "physicsSensor": true,
   "physicsShape": 1,
   "physicsShapePoints": [
-    {"x":0.0,"y":-99.0,},
-    {"x":248.0,"y":-99.0,},
-    {"x":248.0,"y":63.0,},
+    {"x":0.0,"y":-162.0,},
+    {"x":63.0,"y":-162.0,},
+    {"x":63.0,"y":63.0,},
     {"x":0.0,"y":63.0,},
   ],
   "physicsStartAwake": false,
