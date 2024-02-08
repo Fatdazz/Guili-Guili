@@ -10,6 +10,7 @@ image_xscale = scale_printX;
 image_yscale = scale_printY;
 scale_print = scale_printY;
 ange_init = phy_rotation;
+curveRotule = animcurve_get(ani_rotule);
 
 
 

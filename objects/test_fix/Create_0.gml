@@ -8,6 +8,7 @@ image_yscale = scale_print;
 var _spr_truss = spr_truss
 var _scale_truss = 0.6
 
+
 var _rotule_x = x - sprite_width/2 + rotule_x; // position rotule sur moto
 var _rotule_y = y - sprite_height/2 + rotule_y;
 rotule_x =  -sprite_width/2 + rotule_x
@@ -53,5 +54,7 @@ instance_create_layer(x,y,"Player02",obj_Player_02)
 cont_vibration = 0; 
 var _curvestruct = animcurve_get(ani_player01);
 _channel = animcurve_get_channel(_curvestruct,"vibrationY")
+
+curveRotule = animcurve_get(ani_rotule);
 
 particule_systeme  = part_system_create_layer(layer,0)

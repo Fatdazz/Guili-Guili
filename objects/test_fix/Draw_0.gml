@@ -36,8 +36,8 @@ for(var i= 0; i < instance_number(test_rotule); i +=1){
 draw_self()
 draw_sprite_ext(str_joint_back,0,x + rotule_x,y + rotule_y,scale_rotule,scale_rotule,image_angle,c_white,1);
 
-var _curvestruct = animcurve_get(ani_rotule);
-var _channel = animcurve_get_channel(_curvestruct,"draw pie color H");
+
+var _channel = animcurve_get_channel(curveRotule,"draw pie color H");
 var i = animcurve_channel_evaluate(_channel,gauge/gaugeMax);
 var _c = make_color_hsv(i,100,200)
 
