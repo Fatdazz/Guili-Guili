@@ -57,6 +57,7 @@
     {"name":"fix","order":1,"path":"objects/fix/fix.yy",},
     {"name":"obj_infoJoint","order":7,"path":"objects/obj_infoJoint/obj_infoJoint.yy",},
     {"name":"Sprite52","order":6,"path":"sprites/Sprite52/Sprite52.yy",},
+    {"name":"spr_full_ogre","order":5,"path":"sprites/spr_full_ogre/spr_full_ogre.yy",},
     {"name":"obj_Floor","order":4,"path":"objects/obj_Floor/obj_Floor.yy",},
     {"name":"obj_truss_joint","order":10,"path":"objects/obj_truss_joint/obj_truss_joint.yy",},
     {"name":"obj_geant_jambe_d","order":5,"path":"objects/obj_geant_jambe_d/obj_geant_jambe_d.yy",},
