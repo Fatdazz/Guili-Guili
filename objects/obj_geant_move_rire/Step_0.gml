@@ -15,3 +15,6 @@ show_debug_message(sprite_get_xoffset(sprite_index));
 //image_angle = image_angle + 0.1
 phy_rotation = angleInit_anim_rire + rand_anim_rire * _valeur;
 }
+if(dead){
+	phy_speed_y = phy_speed_y + 0.3;
+}

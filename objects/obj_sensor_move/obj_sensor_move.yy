@@ -40,5 +40,5 @@
     "path": "sprites/spr_Bouton_rm/spr_Bouton_rm.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

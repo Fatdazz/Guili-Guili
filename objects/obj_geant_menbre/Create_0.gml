@@ -4,6 +4,7 @@ depth = depth_info // regarde ici pour integation dans hgame
 fixA = physics_fixture_create();
 physics_fixture_set_box_shape(fixA,10,10)
 physics_fixture_set_density(fixA,0);
+physics_fixture_set_friction(fixA,0);
 physics_fixture_set_kinematic(fixA);
 physics_fixture_set_collision_group(fixA,-5);
 my_fix = physics_fixture_bind(fixA,id)
@@ -26,14 +27,16 @@ if(!move and tache01!=noone){
 
 	instance_create_depth(phy_position_x,phy_position_y,depth-1,tache01,{
 		image_xscale: image_xscale,
-		image_yscale : image_yscale
+		image_yscale : image_yscale,
+		obj_IdMere:id
 	})
 }
 if(!move and tache02!=noone){
 	
 	instance_create_depth(phy_position_x,phy_position_y,depth -1,tache02,{
 		image_xscale : image_xscale,
-		image_yscale : image_yscale
+		image_yscale : image_yscale,
+		obj_IdMere:id
 		
 	})
 

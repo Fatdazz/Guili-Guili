@@ -8,7 +8,7 @@ image_angle = 90
 sprite_index = spr_print;
 image_xscale = scale_printX;
 image_yscale = scale_printY;
-
+scale_print = scale_printY;
 ange_init = phy_rotation;
 
 

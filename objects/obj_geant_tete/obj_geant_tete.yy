@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_geant_tete",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_tete_tache",},
