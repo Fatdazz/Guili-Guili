@@ -18,7 +18,7 @@ ht = 0.5
 
 if(instance_number(test_rotule)==3){
 		var rotule = instance_create_layer(x , y , layer,test_main)
-		joint = physics_joint_revolute_create(id, rotule, x , y , -1, 0.1, true, 0, 0, true, false);
+		joint = physics_joint_revolute_create(id, rotule, x , y , 0, 0, true, 0, 0, true, false);
 }
 if(instance_number(test_rotule)< 3 ) {
 	var newX = 120;
@@ -30,6 +30,8 @@ if(instance_number(test_rotule)< 3 ) {
 	var _phy_rotation = 0;
 	var _angleMax;
 	var _angleMin;
+	var _motor_torque_up;
+	var	_motor_speed_up;
 	switch(idRotule){
 		
 		case(1):
@@ -49,6 +51,8 @@ if(instance_number(test_rotule)< 3 ) {
 		_angleMax = _angleMax_1
 		_angleMin = _angleMin_1
 		/////
+		_motor_torque_up = 12000
+		_motor_speed_up = 700
 		
 		break;
 		case(2):
@@ -64,6 +68,8 @@ if(instance_number(test_rotule)< 3 ) {
 		_phy_rotation = -5
 		_angleMax = _angleMax_2
 		_angleMin = _angleMin_2
+		_motor_torque_up = 9000
+		_motor_speed_up = 300
 		
 		break;
 	}
@@ -77,6 +83,11 @@ if(instance_number(test_rotule)< 3 ) {
 			phy_rotation : _phy_rotation,
 			angleMax : _angleMax,
 			angleMin : _angleMin,
+			motor_torque_up: _motor_torque_up,
+			motor_torque_down: _motor_torque_up,//70000,
+			motor_speed_up: _motor_speed_up,	
+			motor_speed_down: _motor_speed_up,
+			
 		});
-	joint = physics_joint_revolute_create(id, rotule, x , y ,-1, 0.1, true, 0,0, false, false);// 90000,-1000
+	joint = physics_joint_revolute_create(id, rotule, x , y ,0, 0, true, 0,0, false, false);// 90000,-1000
 }

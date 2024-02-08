@@ -4,6 +4,6 @@
 draw_self();
 if(global.ok){
 
-	draw_text(x , 10 , "angle: " + string(cont_anim_rire));
+	//draw_text(x , 10 , "angle: " + string(cont_anim_rire));
 
 }

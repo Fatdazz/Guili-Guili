@@ -4,7 +4,7 @@ function fct_draw_rotuleAngle(){
 	var _x = x + rotule_x
 	var _y = y + rotule_y
 	//angleMax
-	
+if(global.debug){
 	var _rotuleOther 
 	if(idRotule == 3){
 		_rotuleOther = instance_find(test_main,0);
@@ -20,7 +20,7 @@ function fct_draw_rotuleAngle(){
 	draw_set_color(c_blue);
 	draw_arrow(_x,_y,_maxX,_maxY,10)
 	draw_set_color(c_white)	
-	draw_text(1050, 20*idRotule + 10, "id:" + string(idRotule) + " angleMax: " + string(angleMax) + + " angleMin: " + string(angleMin))
+	draw_text(1050, 20*idRotule + 10, "id:" + string(idRotule) + " angleMax: " + string(physics_joint_get_value(self.joint,phy_joint_upper_angle_limit)) + + " angleMin: " + string(physics_joint_get_value(self.joint,phy_joint_lower_angle_limit)))
 	
 	var _minX = lengthdir_x(80,-_rotuleOther.ange_init - angleMin + (image_angle + ange_init ) ) +_x // bug je pence 
 	var _minY = lengthdir_y(80,-_rotuleOther.ange_init - angleMin + (image_angle + ange_init ) ) +_y
@@ -49,4 +49,5 @@ function fct_draw_rotuleAngle(){
 
 	draw_set_color(c_white)
 	}
+}
 }

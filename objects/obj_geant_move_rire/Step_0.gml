@@ -13,5 +13,5 @@ var _valeur = animcurve_channel_evaluate(_channel, cont_anim_rire);
 show_debug_message(sprite_get_xoffset(sprite_index));
 
 //image_angle = image_angle + 0.1
-image_angle = angleInit_anim_rire + rand_anim_rire * _valeur;
+phy_rotation = angleInit_anim_rire + rand_anim_rire * _valeur;
 }

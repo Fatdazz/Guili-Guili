@@ -5,6 +5,7 @@ var _rotule = global.listRotule[select_plyer1]
 
 var angle = physics_joint_get_value(_rotule.joint, phy_joint_angle)*180/pi;
 
+if (global.debug){ 
 var _text = "angle select du player 1 : " + string(angle);
 
 _text = "angleMax: " + string(_rotule.angleMax) + " angleMin: " + string(_rotule.angleMin)
@@ -55,7 +56,7 @@ for(var i = 0; i < array_length(global.listRotule); i++){
 	
 }
 
-
+}
 
 /* _text = "phy_joint_upper_angle_limit: " + string(physics_joint_get_value(_rotule.joint, phy_joint_upper_angle_limit)) 
 		+ "phy_joint_lower_angle_limit: " + string(physics_joint_get_value(_rotule.joint,phy_joint_lower_angle_limit));

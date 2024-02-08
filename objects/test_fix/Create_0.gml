@@ -33,11 +33,15 @@ var rotule = instance_create_layer(_rotule_x + newX, _rotule_y + newY, layer,tes
 		phy_rotation : -45,
 		angleMax : 54, // premier rotule
 		angleMin : -18,
+		motor_torque_up: 90000,
+		motor_torque_down: 90000,//70000,
+		motor_speed_up:700,	
+		motor_speed_down: 700,
 		
 	});
 	
 		
-joint = physics_joint_revolute_create(id, rotule, _rotule_x , _rotule_y , -1, 0.1, true, 0,0, true, false); // 90000,-1000
+joint = physics_joint_revolute_create(id, rotule, _rotule_x , _rotule_y , 0, 0, true, 0,0, true, false); // 90000,-1000
 
 //physics_joint_set_value(joint, phy_joint_upper_angle_limit, 0);
 //physics_joint_set_value(joint, phy_joint_lower_angle_limit, 0);

@@ -20,6 +20,10 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"angleMin","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"-18",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"angleSup","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"-1",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"angleInf","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"-1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"motor_torque_up","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"120000",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"motor_torque_down","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"100000",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"motor_speed_up","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"700",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"propertyId":{"name":"motor_speed_down","path":"objects/test_rotule_variable/test_rotule_variable.yy",},"value":"700",},
   ],
   "parent": {
     "name": "alex_tetst",

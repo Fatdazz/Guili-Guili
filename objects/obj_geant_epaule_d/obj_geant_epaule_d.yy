@@ -6,6 +6,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_epaule_droite_tache",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"depth_info","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"18",},
   ],
   "parent": {
     "name": "membres",
@@ -17,7 +18,7 @@
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
-  "physicsDensity": 0.5,
+  "physicsDensity": 0.0,
   "physicsFriction": 0.2,
   "physicsGroup": 1,
   "physicsKinematic": false,
@@ -26,7 +27,12 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":908.0,"y":0.0,},
+    {"x":908.0,"y":615.0,},
+    {"x":0.0,"y":615.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,

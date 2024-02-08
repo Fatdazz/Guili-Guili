@@ -7,6 +7,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache01","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_ventre_tache_1",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"tache02","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"obj_ventre_tache_2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_geant_menbre","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"propertyId":{"name":"depth_info","path":"objects/obj_geant_menbre/obj_geant_menbre.yy",},"value":"16",},
   ],
   "parent": {
     "name": "membres",
@@ -18,7 +19,7 @@
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
-  "physicsDensity": 0.5,
+  "physicsDensity": 0.0,
   "physicsFriction": 0.2,
   "physicsGroup": 1,
   "physicsKinematic": false,
@@ -27,7 +28,12 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":577.0,"y":147.0,},
+    {"x":608.0,"y":147.0,},
+    {"x":608.0,"y":192.0,},
+    {"x":577.0,"y":192.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,

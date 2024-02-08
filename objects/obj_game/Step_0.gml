@@ -18,8 +18,8 @@ if(global.input.button_J1_down and not global.input.button_J1_up){
 	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _rotule.angleMax);
 	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _rotule.angleMin);
 	physics_joint_enable_motor(_rotule.joint, true)
-	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _torque);
-	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, _speed);
+	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _rotule.motor_torque_down);
+	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, _rotule.motor_torque_down);
 	show_debug_message("button down")
 	
 }
@@ -28,8 +28,8 @@ if(global.input.button_J1_down_r)
 	var _rotule = global.listRotule[select_plyer1]
 	var _angle = physics_joint_get_value(_rotule.joint, phy_joint_angle)*180/pi;
 	physics_joint_enable_motor(_rotule.joint, false)
-	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _angle + 0.1);
-	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _angle - 1);
+	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _angle + 0);
+	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _angle - 0);
 		
 
 	//physics_joint_set_value(_temp.joint, phy_joint_upper_angle_limit, angle); // mettreun jeux pour amortir choque 
@@ -45,8 +45,8 @@ if(not global.input.button_J1_down and global.input.button_J1_up){
 	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _rotule.angleMax);
 	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _rotule.angleMin);
 	physics_joint_enable_motor(_rotule.joint, true)
-	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _torque)
-	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, -_speed);
+	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _rotule.motor_torque_up)
+	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, -_rotule.motor_speed_up);
 	show_debug_message("button up")
 	
 }
@@ -56,8 +56,8 @@ if(global.input.button_J1_up_r)
 	var _rotule = global.listRotule[select_plyer1]
 	var _angle = physics_joint_get_value(_rotule.joint, phy_joint_angle)*180/pi;
 	physics_joint_enable_motor(_rotule.joint, false)
-	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _angle + 0.1);
-	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _angle - 0.2);
+	physics_joint_set_value(_rotule.joint, phy_joint_upper_angle_limit, _angle + 0);
+	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _angle - 0);
 		
 }
 
