@@ -51,7 +51,7 @@ if(instance_number(test_rotule)< 3 ) {
 		_angleMax = _angleMax_1
 		_angleMin = _angleMin_1
 		/////
-		_motor_torque_up = 12000
+		_motor_torque_up = 13000
 		_motor_speed_up = 700
 		
 		break;

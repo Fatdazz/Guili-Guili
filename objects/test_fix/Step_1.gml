@@ -1,7 +1,7 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
-if(fps>50) cont_vibration =  cont_vibration + 0.9/fps  /// 1.5 speed de n'anime
+if(fps>50) cont_vibration =  cont_vibration + 0.9/60  /// 1.5 speed de n'anime
 	if cont_vibration > 1 {  
 		cont_vibration = cont_vibration mod 1; // en boucle 
 		

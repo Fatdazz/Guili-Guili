@@ -53,12 +53,12 @@ else{
 		
 		var _channel = animcurve_get_channel(curvestruct,"angle")
 		var _valeur = animcurve_channel_evaluate(_channel, 1-_esp );
-		image_angle = _rotuleSelectOther.image_angle*_esp + _rotuleSelect.image_angle*(1-_esp);
+		image_angle = _rotuleSelectOther.image_angle*(1-_valeur) + _rotuleSelect.image_angle*(_valeur);
 		
 		_channel = animcurve_get_channel(curvestruct,"scale")
 		_valeur = animcurve_channel_evaluate(_channel, _esp );
-		image_xscale =  _rotuleSelectOther.scale_rotule*_esp + _rotuleSelect.scale_rotule*(1-_esp);
-		image_yscale =  _rotuleSelectOther.scale_rotule*_esp + _rotuleSelect.scale_rotule*(1-_esp);
+		image_xscale =  _rotuleSelectOther.scale_rotule*_valeur + _rotuleSelect.scale_rotule*(1-_valeur);
+		image_yscale =  _rotuleSelectOther.scale_rotule*_valeur + _rotuleSelect.scale_rotule*(1-_valeur);
 	}
 	
 	draw_sprite_ext(spr_Player_02,0,

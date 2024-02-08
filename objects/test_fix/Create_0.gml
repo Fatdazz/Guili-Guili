@@ -33,8 +33,8 @@ var rotule = instance_create_layer(_rotule_x + newX, _rotule_y + newY, layer,tes
 		phy_rotation : -45,
 		angleMax : 54, // premier rotule
 		angleMin : -18,
-		motor_torque_up: 90000,
-		motor_torque_down: 90000,//70000,
+		motor_torque_up: 100000,
+		motor_torque_down: 100000,//70000,
 		motor_speed_up:700,	
 		motor_speed_down: 700,
 		

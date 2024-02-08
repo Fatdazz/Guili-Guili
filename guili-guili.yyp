@@ -156,6 +156,7 @@
     {"id":{"name":"rm_particule","path":"rooms/rm_particule/rm_particule.yy",},},
     {"id":{"name":"Sprite48","path":"sprites/Sprite48/Sprite48.yy",},},
     {"id":{"name":"spr_tete","path":"sprites/spr_tete/spr_tete.yy",},},
+    {"id":{"name":"Timeline1","path":"timelines/Timeline1/Timeline1.yy",},},
     {"id":{"name":"rm_phi","path":"rooms/rm_phi/rm_phi.yy",},},
     {"id":{"name":"move_test","path":"objects/move_test/move_test.yy",},},
     {"id":{"name":"obj_Control_alex","path":"objects/obj_Control_alex/obj_Control_alex.yy",},},

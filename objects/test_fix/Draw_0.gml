@@ -35,6 +35,16 @@ for(var i= 0; i < instance_number(test_rotule); i +=1){
 */
 draw_self()
 draw_sprite_ext(str_joint_back,0,x + rotule_x,y + rotule_y,scale_rotule,scale_rotule,image_angle,c_white,1);
+
+var _curvestruct = animcurve_get(ani_rotule);
+var _channel = animcurve_get_channel(_curvestruct,"draw pie color H");
+var i = animcurve_channel_evaluate(_channel,gauge/gaugeMax);
+var _c = make_color_hsv(i,100,200)
+
+
+draw_pie(x + rotule_x, y + rotule_y , 1 - gauge/gaugeMax  , 1 , _c , 30, 1)
+
+
 if(global.listRotule[global.game.select_plyer1]==id){
 	draw_sprite_ext(spr_joint_on,0,x + rotule_x,y + rotule_y,scale_rotule,scale_rotule,image_angle,c_white,1)
 }
