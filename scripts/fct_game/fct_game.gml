@@ -1,6 +1,7 @@
 // Les actifs du script ont changé pour v2.3.0 Voir
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 pour plus d’informations
 function etape_01(){
+	idEtape = 1;
 	var _obj=  instance_find(obj_geant_pied_d,0)
 
 	with(_obj){

@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+idEtape = 0; 
 global.game = id;
 global.debug = true
 select_plyer1 = 0;

@@ -1,8 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
-_torque = 150000
-_speed = 50000
 
 if(global.input.button_J1_pre and not global.input.button_J1_next and select_plyer1 !=0){
 	
@@ -106,4 +104,12 @@ if(global.input.button_J2_serrage and not _player02.isMove){
 	}
 	
 	alarm[0] = Alarm_pler2;
+}
+
+
+if(idEtape == 0 and  gaugeGeant == 350 * 3 ){
+	etape_01()
+}
+if(idEtape == 0 and  gaugeGeant == 350 * (3 + 6) ){
+	//etape_02()
 }
