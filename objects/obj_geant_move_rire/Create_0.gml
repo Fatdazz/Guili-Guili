@@ -34,7 +34,7 @@ phy_position_y = phy_position_y + sprite_get_yoffset(sprite_index)*image_yscale 
 
 var _curvestruct = animcurve_get(ani_moveCorp);
 
-_channel = animcurve_get_channel(_curvestruct,"Jambe")
+_channel = animcurve_get_channel(_curvestruct,"courbe1")
 
 cont_anim_rire = 0;
 

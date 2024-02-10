@@ -51,9 +51,9 @@
         "GMSprite",
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_main","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMax_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"78","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMax_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"10","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMax_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"110","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMin_1","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-4","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMin_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-10","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_angleMin_2","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-110","varType":0,},
   ],
   "solid": false,
   "spriteId": {

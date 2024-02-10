@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+GameOver = false;
 idEtape = 0; 
 global.game = id;
 global.debug = true

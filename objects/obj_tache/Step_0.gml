@@ -13,13 +13,12 @@ if(isActif && gauge <= 0){
 		_obj.isActif = true;
 		_obj.alarm[0] =  floor(random_range(60*18, 60*25));
 		_i = true;
-		
 		}
 	}
 		
 	isActif = false;
 }
-if(alarm[0] < 160 || gauge < 90){
+if(alarm[0] < 160){
 	num_clignio = (num_clignio + 1) mod 15
 	if(num_clignio == 0) isclignio = !isclignio
 		

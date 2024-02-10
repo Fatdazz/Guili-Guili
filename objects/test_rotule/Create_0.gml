@@ -52,8 +52,8 @@ if(instance_number(test_rotule)< 3 ) {
 		_angleMax = _angleMax_1
 		_angleMin = _angleMin_1
 		/////
-		_motor_torque_up = 13000
-		_motor_speed_up = 700
+		_motor_torque_up = 50000
+		_motor_speed_up = 900
 		
 		break;
 		case(2):
@@ -69,7 +69,7 @@ if(instance_number(test_rotule)< 3 ) {
 		_phy_rotation = -5
 		_angleMax = _angleMax_2
 		_angleMin = _angleMin_2
-		_motor_torque_up = 9000
+		_motor_torque_up = 7000
 		_motor_speed_up = 300
 		
 		break;

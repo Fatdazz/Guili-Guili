@@ -11,15 +11,19 @@ function etape_01(){
 	dead = true
 	}
 	var part = part_system_create(Part_sang)
-	_obj = instance_find(obj_jambe_droite_tache,0)
-	part_system_position(part,1552,994)
+	//part_system_depth(part,_obj.depth -1)
+	part_system_depth(part,_obj.depth)
+	//_obj = instance_find(obj_jambe_droite_tache,0)
+	
+	part_system_position(part,1560,1041)
 	
 	global.game.coef_addGauge = 2; 
 	
 }
 
 function etape_02(){
-	var _obj=  instance_find(obj_geant_pied_d,0)
+	idEtape = 2;
+	var _obj=  instance_find(obj_geant_main_g,0)
 
 	with(_obj){
 	image_angle = 0;
@@ -28,8 +32,8 @@ function etape_02(){
 	dead = true
 	}
 	var part = part_system_create(Part_sang)
-	_obj = instance_find(obj_jambe_droite_tache,0)
-	part_system_position(part,1552,994)
+	part_system_depth(part,_obj.depth + 20)
+	part_system_position(part,2215,729)
 	
 	
 	global.game.coef_addGauge = 1.7;

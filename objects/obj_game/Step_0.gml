@@ -17,7 +17,7 @@ if(global.input.button_J1_down and not global.input.button_J1_up){
 	physics_joint_set_value(_rotule.joint, phy_joint_lower_angle_limit, _rotule.angleMin);
 	physics_joint_enable_motor(_rotule.joint, true)
 	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _rotule.motor_torque_down);
-	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, _rotule.motor_torque_down);
+	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, _rotule.motor_speed_down);
 	
 	
 }
@@ -107,9 +107,9 @@ if(global.input.button_J2_serrage and not _player02.isMove){
 }
 
 
-if(idEtape == 0 and  gaugeGeant == 350 * 3 ){
+if(idEtape == 0 and  gaugeGeant == 350 * 1 ){
 	etape_01()
 }
-if(idEtape == 0 and  gaugeGeant == 350 * (3 + 6) ){
-	//etape_02()
+if(idEtape == 1 and  gaugeGeant == 350 * 2 ){ // 3+6
+	etape_02()
 }
