@@ -50,7 +50,7 @@ if(not global.input.button_J1_down and global.input.button_J1_up){
 	
 }
 
-if(global.input.button_J1_up_r) 
+if(global.input.button_J1_up_r)
  {
 	var _rotule = global.listRotule[select_plyer1]
 	var _angle = physics_joint_get_value(_rotule.joint, phy_joint_angle)*180/pi;

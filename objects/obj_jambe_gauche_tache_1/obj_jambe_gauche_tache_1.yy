@@ -4,7 +4,10 @@
   "name": "obj_jambe_gauche_tache_1",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_tache","path":"objects/obj_tache/obj_tache.yy",},"propertyId":{"name":"isActif","path":"objects/obj_tache/obj_tache.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_tache","path":"objects/obj_tache/obj_tache.yy",},"propertyId":{"name":"gauge","path":"objects/obj_tache/obj_tache.yy",},"value":"gaugeMax",},
+  ],
   "parent": {
     "name": "taches",
     "path": "folders/Objets/Geant/taches.yy",

@@ -1,5 +1,5 @@
 event_inherited();
-global.ok = true
+
 
 
 

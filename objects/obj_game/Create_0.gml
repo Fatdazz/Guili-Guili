@@ -16,3 +16,6 @@ cont_Alrm = 0
 
 moyen_touch = array_create(60,false);
 cont_moyen_touch = 0;
+
+
+gaugeGeant = 0;
