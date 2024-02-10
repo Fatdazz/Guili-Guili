@@ -19,3 +19,8 @@ if(isActif && gauge <= 0){
 		
 	isActif = false;
 }
+if(alarm[0] < 160){
+	num_clignio = (num_clignio + 1) mod 15
+	if(num_clignio == 0) isclignio = !isclignio
+		
+}
