@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "guili-guili",
-    "path": "guili-guili.yyp",
+    "name": "taches",
+    "path": "folders/Objets/Geant/taches.yy",
   },
   "parentObjectId": {
     "name": "obj_tache",

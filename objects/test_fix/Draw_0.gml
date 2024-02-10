@@ -39,7 +39,7 @@ draw_sprite_ext(str_joint_back,0,x + rotule_x,y + rotule_y,scale_rotule,scale_ro
 
 var _channel = animcurve_get_channel(curveRotule,"draw pie color H");
 var i = animcurve_channel_evaluate(_channel,gauge/gaugeMax);
-var _c = make_color_hsv(i,100,200)
+var _c = make_color_hsv(i,200,250)
 
 
 draw_pie(x + rotule_x, y + rotule_y , 1 - gauge/gaugeMax  , 1 , _c , 30, 1)

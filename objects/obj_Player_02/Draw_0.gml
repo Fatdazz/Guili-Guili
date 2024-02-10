@@ -27,7 +27,7 @@ else{
 	if(alarm[0]!=-1){
 		var _rotuleSelectOther = global.listRotule[global.game.select_plyer2+1]
 		var _L =  _rotuleSelectOther.scale_print * sprite_get_height(_rotuleSelectOther.spr_print)
-		var _esp = (t-alarm[0])/t
+		var _esp = (temp_deplacement-alarm[0])/temp_deplacement
 		
 		_x = _x + lengthdir_x(_L*_esp,_rotuleSelectOther.image_angle)
 		_y = _y + lengthdir_y(_L*_esp,_rotuleSelectOther.image_angle)
@@ -46,7 +46,7 @@ else{
 	if(alarm[1]!=-1){
 		var _rotuleSelectOther = global.listRotule[global.game.select_plyer2-1]
 		var _L = _rotuleSelect.scale_print * sprite_get_height(_rotuleSelect.spr_print)
-		var _esp = (t-alarm[1])/t
+		var _esp = (temp_deplacement-alarm[1])/temp_deplacement
 		
 		_x = _x - lengthdir_x(_L*_esp,_rotuleSelect.image_angle)
 		_y = _y - lengthdir_y(_L*_esp,_rotuleSelect.image_angle)

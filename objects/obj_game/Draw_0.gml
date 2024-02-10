@@ -6,13 +6,20 @@ var _rotule = global.listRotule[select_plyer1]
 var angle = physics_joint_get_value(_rotule.joint, phy_joint_angle)*180/pi;
 
 if (global.debug){ 
+draw_set_color(c_aqua)
+var moyen= 0;
+for(var i = 0; i < array_length(moyen_touch);i++){
+		moyen = moyen +  moyen_touch[i];
+}
+draw_text(5, 5 ,moyen)
+draw_set_color(c_white)
 var _text = "angle select du player 1 : " + string(angle);
 
 _text = "angleMax: " + string(_rotule.angleMax) + " angleMin: " + string(_rotule.angleMin)
 		+ " angleSup: " + string(_rotule.angleSup) + " angleInf: " + string(_rotule.angleInf)
 //draw_self()
 //draw_text(10,10,_text)
-draw_text(10, 5 , " ===== Info Box 2d ====")
+//draw_text(10, 5 , " ===== Info Box 2d ====")
 draw_text(10, 20 , "  ==== Moteur === ")
 _text = "phy_joint_max_motor_force: " + string(physics_joint_get_value(_rotule.joint, phy_joint_max_motor_force))
 draw_text(10,40,_text)
@@ -46,7 +53,7 @@ for(var i = 0; i < array_length(global.listRotule); i++){
 	_text = "rotule " + string(_rotule.idRotule) + " Gauge: " +  string(_rotule.gauge);
 	draw_text(10,280 + i*20,_text)
 	draw_set_color(c_red)
-	draw_text(215, 280 + i*20,addGauge)
+	draw_text(215, 280 + i*20,"addGauge: " + string(addGauge) + "tape/s: "+string(60/(60 -alarm[0])))
 	draw_set_color(c_white)
 	}
 	else{

@@ -20,7 +20,7 @@ if(global.input.button_J1_down and not global.input.button_J1_up){
 	physics_joint_enable_motor(_rotule.joint, true)
 	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _rotule.motor_torque_down);
 	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, _rotule.motor_torque_down);
-	show_debug_message("button down")
+	
 	
 }
 if(global.input.button_J1_down_r)
@@ -47,7 +47,6 @@ if(not global.input.button_J1_down and global.input.button_J1_up){
 	physics_joint_enable_motor(_rotule.joint, true)
 	physics_joint_set_value(_rotule.joint, phy_joint_max_motor_torque, _rotule.motor_torque_up)
 	physics_joint_set_value(_rotule.joint, phy_joint_motor_speed, -_rotule.motor_speed_up);
-	show_debug_message("button up")
 	
 }
 
@@ -75,31 +74,36 @@ if(not _player02.isMove  and global.input.button_J2_next and not global.input.bu
 	_player02.isMove = true;
 	_player02.isNext = true;
 	_player02.isPre = false;
-	_player02.alarm[0] = _player02.t;
+	_player02.alarm[0] = _player02.temp_deplacement;
 }
 if(not _player02.isMove  and not global.input.button_J2_next and global.input.button_J2_pre and select_plyer2 !=0 ){
 	_player02.isMove = true;
 	_player02.isNext = false;
 	_player02.isPre = true;
-	_player02.alarm[1] = _player02.t;
+	_player02.alarm[1] = _player02.temp_deplacement;
 }
+
+cont_moyen_touch = (cont_moyen_touch + 1) mod array_length(moyen_touch)
+moyen_touch[cont_moyen_touch]= false;
+
 
 
 if(global.input.button_J2_serrage and not _player02.isMove){
 	
-	if(alarm[0] == -1 ){
-	show_debug_message("Alarm off + 3pt")
+	moyen_touch[cont_moyen_touch] = true;
+	
+	if(alarm[0] == -2 ){ // mettre -1
+
 		global.listRotule[select_plyer2].gauge = global.listRotule[select_plyer2].gauge + 2
 	
 	}
 	else{
 		var _curvestruct = animcurve_get(ani_rotule);
 		var _channel = animcurve_get_channel(_curvestruct,"add_gauge");
-		var i = animcurve_channel_evaluate(_channel, alarm[0]/50)/5;
-		addGauge = i;
-		global.listRotule[select_plyer2].gauge = global.listRotule[select_plyer2].gauge + i
+		var i = animcurve_channel_evaluate(_channel, alarm[0]/Alarm_pler2);
+		addGauge = 2.2*i;
+		global.listRotule[select_plyer2].gauge = global.listRotule[select_plyer2].gauge + addGauge
 	}
 	
-	
-	alarm[0] = 50;
+	alarm[0] = Alarm_pler2;
 }

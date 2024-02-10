@@ -3,7 +3,7 @@
  x = global.listRotule[0].x
  y = global.listRotule[0].y 
  isMove = false
- t = 60
+ temp_deplacement = 40;
  image_yscale = 1.5
  image_angle = angle_difference(global.listRotule[0].image_angle, global.listRotule[1].image_angle) // ??
  
