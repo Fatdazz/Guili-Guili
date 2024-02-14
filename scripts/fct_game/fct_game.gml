@@ -12,12 +12,12 @@ function etape_01(){
 	}
 	var part = part_system_create(Part_sang)
 	//part_system_depth(part,_obj.depth -1)
-	part_system_depth(part,_obj.depth)
+	part_system_depth(part,_obj.depth + 20)
 	//_obj = instance_find(obj_jambe_droite_tache,0)
 	
 	part_system_position(part,1560,1041)
 	
-	global.game.coef_addGauge = 2; 
+	global.game.coef_addGauge = 1.9; 
 	
 }
 
@@ -36,12 +36,12 @@ function etape_02(){
 	part_system_position(part,2215,729)
 	
 	
-	global.game.coef_addGauge = 1.7;
+	global.game.coef_addGauge = 1.5;
 	
 }	
 
 function etape_03(){
-
+	idEtape = 3;
 	for(var i = 0; i < instance_number(obj_geant_menbre);i++){
 		var _obj = instance_find(obj_geant_menbre,i)
 		_obj.image_angle = 0;

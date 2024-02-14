@@ -59,6 +59,7 @@ if(global.input.button_J1_up_r)
 }
 
 var _player01  = instance_find(test_fix,0)
+	_player01.phy_speed_x = 0;
 if(global.input.button_J1_right){
 		_player01.phy_speed_x = 5 ;
 }
@@ -107,9 +108,12 @@ if(global.input.button_J2_serrage and not _player02.isMove){
 }
 
 
-if(idEtape == 0 and  gaugeGeant == 350 * 1 ){
+if(idEtape == 0 and  gaugeGeant == 350 * 3){
 	etape_01()
 }
-if(idEtape == 1 and  gaugeGeant == 350 * 2 ){ // 3+6
+if(idEtape == 1 and  gaugeGeant == 350 * (3 + 5) ){ // 3+6
 	etape_02()
+}
+if(idEtape == 2 and  gaugeGeant == 350 * (3 + 5 + 4) ){ // 3+6
+	etape_03()
 }

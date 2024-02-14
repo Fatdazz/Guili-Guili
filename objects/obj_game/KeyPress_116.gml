@@ -15,5 +15,6 @@ with(_obj){
 var part = part_system_create(Part_sang)
 
 _obj = instance_find(obj_jambe_droite_tache,0)
+ part_system_depth(part,_obj.depth + 20)
 
-part_system_position(part,1552,994)
+ part_system_position(part,1552,994)
