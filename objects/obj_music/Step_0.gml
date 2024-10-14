@@ -1,6 +1,7 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-if(not audio_is_playing(audio_select) and global.isMusic){
+
+if((not audio_is_playing(audio_select)) and global.isMusic){
 	i= i+1
     if(i%4 == 1)
     {
