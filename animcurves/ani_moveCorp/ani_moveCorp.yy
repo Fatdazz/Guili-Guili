@@ -1,9 +1,8 @@
 {
-  "resourceType": "GMAnimCurve",
-  "resourceVersion": "1.2",
-  "name": "ani_moveCorp",
-  "channels": [
-    {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"Jambe","colour":4290799884,"points":[
+  "$GMAnimCurve":"",
+  "%Name":"ani_moveCorp",
+  "channels":[
+    {"$GMAnimCurveChannel":"","%Name":"Jambe","colour":4290799884,"name":"Jambe","points":[
         {"th0":-0.125,"th1":0.012134433,"tv0":0.0,"tv1":0.026954234,"x":0.0,"y":0.0,},
         {"th0":-0.013478845,"th1":0.022009194,"tv0":0.026274443,"tv1":0.094079256,"x":0.050000012,"y":0.0,},
         {"th0":-0.026324183,"th1":0.03942752,"tv0":0.08826238,"tv1":0.21267605,"x":0.13749999,"y":0.0026954412,},
@@ -13,14 +12,14 @@
         {"th0":-0.026324183,"th1":0.03942752,"tv0":-0.08826238,"tv1":-0.21267605,"x":0.6375,"y":0.99730456,},
         {"th0":-0.033563778,"th1":0.03841676,"tv0":-0.22512865,"tv1":-0.39294833,"x":0.825,"y":1.0,},
         {"th0":-0.06472216,"th1":0.125,"tv0":-0.0006293021,"tv1":0.0,"x":1.0,"y":0.0,},
-      ],"visible":false,},
-    {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"tache_alpha","colour":4281083598,"points":[
+      ],"resourceType":"GMAnimCurveChannel","resourceVersion":"2.0","visible":false,},
+    {"$GMAnimCurveChannel":"","%Name":"tache_alpha","colour":4281083598,"name":"tache_alpha","points":[
         {"th0":-0.25,"th1":0.04303983,"tv0":0.0,"tv1":0.0,"x":0.0,"y":0.2,},
         {"th0":-0.032364465,"th1":0.17212385,"tv0":-0.009658933,"tv1":0.051369075,"x":0.1,"y":0.42115003,},
         {"th0":-0.11887318,"th1":0.1100868,"tv0":-0.08336711,"tv1":0.07720517,"x":0.5,"y":0.9,},
         {"th0":-0.25,"th1":0.25,"tv0":-0.0009853364,"tv1":0.0,"x":1.0,"y":1.0,},
-      ],"visible":false,},
-    {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"courbe1","colour":4279025727,"points":[
+      ],"resourceType":"GMAnimCurveChannel","resourceVersion":"2.0","visible":false,},
+    {"$GMAnimCurveChannel":"","%Name":"courbe1","colour":4279025727,"name":"courbe1","points":[
         {"th0":-0.1,"th1":0.030000001,"tv0":0.0,"tv1":0.0,"x":0.0,"y":0.0,},
         {"th0":-0.012643053,"th1":0.024962207,"tv0":-0.030729316,"tv1":0.060671393,"x":0.069300294,"y":0.100083195,},
         {"th0":-0.031445034,"th1":0.012500863,"tv0":-0.08125338,"tv1":0.032302,"x":0.12686828,"y":0.5079866,},
@@ -34,11 +33,14 @@
         {"th0":-0.019161228,"th1":0.037831567,"tv0":0.051215526,"tv1":-0.10111898,"x":0.80191755,"y":0.8331947,},
         {"th0":-0.04765664,"th1":0.018945731,"tv0":0.13542229,"tv1":-0.053836662,"x":0.8891649,"y":0.15335566,},
         {"th0":-0.047034428,"th1":0.1,"tv0":0.0,"tv1":0.0,"x":1.0,"y":0.0,},
-      ],"visible":true,},
+      ],"resourceType":"GMAnimCurveChannel","resourceVersion":"2.0","visible":true,},
   ],
-  "function": 2,
-  "parent": {
-    "name": "Courbes d’animation",
-    "path": "folders/Courbes d’animation.yy",
+  "function":2,
+  "name":"ani_moveCorp",
+  "parent":{
+    "name":"Courbes d’animation",
+    "path":"folders/Courbes d’animation.yy",
   },
+  "resourceType":"GMAnimCurve",
+  "resourceVersion":"2.0",
 }

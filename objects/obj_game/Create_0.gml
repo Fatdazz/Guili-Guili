@@ -3,7 +3,8 @@
 GameOver = false;
 idEtape = 0; 
 global.game = id;
-global.debug = true
+global.debug = false
+global.isMusic = false;
 select_plyer1 = 0;
 select_plyer2 = 0;
 
@@ -21,3 +22,4 @@ cont_moyen_touch = 0;
 
 
 gaugeGeant = 0;
+instance_create_layer(0,0,id.layer,obj_music)
