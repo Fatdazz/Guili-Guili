@@ -4,7 +4,7 @@ GameOver = false;
 idEtape = 0; 
 global.game = id;
 global.debug = false
-global.isMusic = false;
+global.isMusic = true;
 select_plyer1 = 0;
 select_plyer2 = 0;
 
