@@ -128,6 +128,7 @@
     {"id":{"name":"test_rotule_variable","path":"objects/test_rotule_variable/test_rotule_variable.yy",},},
     {"id":{"name":"test_rotule","path":"objects/test_rotule/test_rotule.yy",},},
     {"id":{"name":"Part_moto","path":"particles/Part_moto/Part_moto.yy",},},
+    {"id":{"name":"Part_sang_final","path":"particles/Part_sang_final/Part_sang_final.yy",},},
     {"id":{"name":"Part_sang","path":"particles/Part_sang/Part_sang.yy",},},
     {"id":{"name":"rm_alex","path":"rooms/rm_alex/rm_alex.yy",},},
     {"id":{"name":"rm_camion","path":"rooms/rm_camion/rm_camion.yy",},},

@@ -60,6 +60,7 @@
     {"name":"test_main","order":3,"path":"objects/test_main/test_main.yy",},
     {"name":"test_rotule_variable","order":2,"path":"objects/test_rotule_variable/test_rotule_variable.yy",},
     {"name":"test_rotule","order":1,"path":"objects/test_rotule/test_rotule.yy",},
+    {"name":"Part_sang_final","order":2,"path":"particles/Part_sang_final/Part_sang_final.yy",},
     {"name":"Part_sang","order":1,"path":"particles/Part_sang/Part_sang.yy",},
     {"name":"rm_game_02","order":1,"path":"rooms/rm_game_02/rm_game_02.yy",},
     {"name":"rm_particule","order":2,"path":"rooms/rm_particule/rm_particule.yy",},

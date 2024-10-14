@@ -45,6 +45,10 @@ function etape_03(){
 	idEtape = 3;
 	for(var i = 0; i < instance_number(obj_geant_menbre);i++){
 		var _obj = instance_find(obj_geant_menbre,i)
+		var particule = part_system_create(Part_sang_final)
+		part_system_depth(particule,_obj.depth + 3)
+		part_system_position(particule,_obj.x,_obj.y)
+		
 		_obj.image_angle = 0;
 		_obj.phy_speed_x = random_range(-45, 45);
 		_obj.phy_speed_y = -random_range(50,70);
