@@ -77,6 +77,7 @@
     {"name":"solo3","order":4,"path":"sounds/solo3/solo3.yy",},
     {"name":"solo4","order":5,"path":"sounds/solo4/solo4.yy",},
     {"name":"Capture_d__cran_2024_02_08_092520","order":9,"path":"sprites/Capture_d__cran_2024_02_08_092520/Capture_d__cran_2024_02_08_092520.yy",},
+    {"name":"spr_back","order":1,"path":"sprites/spr_back/spr_back.yy",},
     {"name":"spr_bras_1","order":3,"path":"sprites/spr_bras_1/spr_bras_1.yy",},
     {"name":"spr_bras_3","order":1,"path":"sprites/spr_bras_3/spr_bras_3.yy",},
     {"name":"spr_bras_4","order":2,"path":"sprites/spr_bras_4/spr_bras_4.yy",},

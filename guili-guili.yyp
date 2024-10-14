@@ -162,6 +162,7 @@
     {"id":{"name":"Capture_d__cran_2024_02_08_092520","path":"sprites/Capture_d__cran_2024_02_08_092520/Capture_d__cran_2024_02_08_092520.yy",},},
     {"id":{"name":"spr_1px","path":"sprites/spr_1px/spr_1px.yy",},},
     {"id":{"name":"spr_Alex","path":"sprites/spr_Alex/spr_Alex.yy",},},
+    {"id":{"name":"spr_back","path":"sprites/spr_back/spr_back.yy",},},
     {"id":{"name":"spr_bg_ciel","path":"sprites/spr_bg_ciel/spr_bg_ciel.yy",},},
     {"id":{"name":"spr_bg_plaine","path":"sprites/spr_bg_plaine/spr_bg_plaine.yy",},},
     {"id":{"name":"spr_Bouton_rm","path":"sprites/spr_Bouton_rm/spr_Bouton_rm.yy",},},
