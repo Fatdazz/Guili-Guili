@@ -10,12 +10,13 @@ function etape_01(){
 	phy_speed_y = -random_range(50,70);
 	dead = true
 	}
-	var part = part_system_create(Part_sang)
+	global.sang_01  = part_system_create(Part_sang)
 	//part_system_depth(part,_obj.depth -1)
-	part_system_depth(part,_obj.depth + 20)
+	part_system_depth(global.sang_01,_obj.depth + 20)
 	//_obj = instance_find(obj_jambe_droite_tache,0)
 	
-	part_system_position(part,1560,1041)
+	part_system_position(global.sang_01,1560,1041)
+	
 	
 	global.game.coef_addGauge = 1.9; 
 	
@@ -31,9 +32,9 @@ function etape_02(){
 	phy_speed_y = -random_range(50,70);
 	dead = true
 	}
-	var part = part_system_create(Part_sang)
-	part_system_depth(part,_obj.depth + 20)
-	part_system_position(part,2215,729)
+	global.sang_02 = part_system_create(Part_sang)
+	part_system_depth(global.sang_02,_obj.depth + 20)
+	part_system_position(global.sang_02,2215,729)
 	
 	
 	global.game.coef_addGauge = 1.5;
@@ -50,5 +51,7 @@ function etape_03(){
 		_obj.dead = true
 	}	
 	
+	part_system_destroy(global.sang_01)
+	part_system_destroy(global.sang_02)
 	global.game.coef_addGauge = 0;
 }	

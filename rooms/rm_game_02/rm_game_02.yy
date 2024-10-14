@@ -25,6 +25,7 @@
     {"name":"inst_785725B1","path":"rooms/rm_game_02/rm_game_02.yy",},
     {"name":"inst_78962894","path":"rooms/rm_game_02/rm_game_02.yy",},
     {"name":"inst_6A2CE836","path":"rooms/rm_game_02/rm_game_02.yy",},
+    {"name":"inst_77E3068E","path":"rooms/rm_game_02/rm_game_02.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -53,6 +54,7 @@
     {"$GMRInstanceLayer":"","%Name":"systeme","depth":150,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_1FFA02F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FFA02F2","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":-608.0,},
         {"$GMRInstance":"v1","%Name":"inst_6AF89522","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6AF89522","objectId":{"name":"obj_input_game","path":"objects/obj_input_game/obj_input_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":-640.0,},
+        {"$GMRInstance":"v1","%Name":"inst_77E3068E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77E3068E","objectId":{"name":"obj_laugh","path":"objects/obj_laugh/obj_laugh.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":-512.0,},
       ],"layers":[],"name":"systeme","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"bg","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_58A8CB88","animationSpeed":1.0,"colour":4294967295,"frozen":true,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_58A8CB88","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_bg_ciel","path":"sprites/spr_bg_ciel/spr_bg_ciel.yy",},"x":0.0,"y":0.0,},
