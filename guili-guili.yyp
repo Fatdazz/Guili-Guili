@@ -209,6 +209,8 @@
     {"id":{"name":"spr_pied_off","path":"sprites/spr_pied_off/spr_pied_off.yy",},},
     {"id":{"name":"spr_pied_on","path":"sprites/spr_pied_on/spr_pied_on.yy",},},
     {"id":{"name":"spr_Player_02","path":"sprites/spr_Player_02/spr_Player_02.yy",},},
+    {"id":{"name":"spr_roue_arriere","path":"sprites/spr_roue_arriere/spr_roue_arriere.yy",},},
+    {"id":{"name":"spr_roue_avant","path":"sprites/spr_roue_avant/spr_roue_avant.yy",},},
     {"id":{"name":"spr_sang","path":"sprites/spr_sang/spr_sang.yy",},},
     {"id":{"name":"spr_test_sang","path":"sprites/spr_test_sang/spr_test_sang.yy",},},
     {"id":{"name":"spr_tete_off","path":"sprites/spr_tete_off/spr_tete_off.yy",},},

@@ -47,6 +47,8 @@ if(global.ok) draw_sprite_ext(spr_tete_on,0,x,y,image_xscale,image_yscale,image_
 
 
 draw_sprite_ext(spr_pied_off,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+draw_sprite_ext(spr_roue_avant,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+draw_sprite_ext(spr_roue_avant,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
 
 
 switch(global.game.select_plyer1){
