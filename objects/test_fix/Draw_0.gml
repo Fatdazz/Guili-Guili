@@ -34,10 +34,34 @@ for(var i= 0; i < instance_number(test_rotule); i +=1){
 //draw_sprite_ext(spr_1px,0,x,y,164/2,4,-physics_joint_get_value(id.joint,phy_joint_angle) *180/pi, c_white,1);
 */
 draw_self()
-draw_sprite_ext(spr_cheveux_off,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
-draw_sprite_ext(spr_bras_1,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+
+if(phy_speed_x == 0)draw_sprite_ext(spr_cheveux_off,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+if(phy_speed_x > 0)draw_sprite_ext(spr_cheveux_avance,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+if(phy_speed_x < 0)draw_sprite_ext(spr_cheveux_recule,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+
+//draw_sprite_ext(spr_bras_1,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
 draw_sprite_ext(spr_tete_off,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+if(global.ok) draw_sprite_ext(spr_tete_on,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+
+
 draw_sprite_ext(spr_pied_off,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+
+
+switch(global.game.select_plyer1){
+	case 0:
+	draw_sprite_ext(spr_bras_1,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+	break;
+	case 1:
+	draw_sprite_ext(spr_bras_2,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+	break;
+	case 2:
+	draw_sprite_ext(spr_bras_3,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+	break;
+	case 3:
+	draw_sprite_ext(spr_bras_4,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
+	
+}
+
 
 draw_sprite_ext(str_joint_back,0,x + rotule_x,y + rotule_y,scale_rotule,scale_rotule,image_angle,c_white,1);
 
