@@ -57,8 +57,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_joueur1_lutin",
-    "path":"sprites/spr_joueur1_lutin/spr_joueur1_lutin.yy",
+    "name":"spr_moto",
+    "path":"sprites/spr_moto/spr_moto.yy",
   },
   "spriteMaskId":null,
   "visible":true,
