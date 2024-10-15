@@ -33,6 +33,8 @@ for(var i= 0; i < instance_number(test_rotule); i +=1){
 
 //draw_sprite_ext(spr_1px,0,x,y,164/2,4,-physics_joint_get_value(id.joint,phy_joint_angle) *180/pi, c_white,1);
 */
+
+
 draw_self()
 
 if(phy_speed_x == 0)draw_sprite_ext(spr_cheveux_off,0,x,y,image_xscale,image_yscale,image_angle,c_white,1)
@@ -89,12 +91,15 @@ if(	sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurv
 	sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))
 	)
 {
+	show_debug_message(sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration)))
 	draw_text(1500, 10, string(sign(animcurve_channel_evaluate(_channel, cont_vibration + 1/fps) - animcurve_channel_evaluate(_channel, cont_vibration))))	
 	
-	if(sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))==-1){
+	if(sign(animcurve_channel_evaluate(_channel, cont_vibration ) - animcurve_channel_evaluate(_channel, cont_vibration - 1/fps))==1 or true){
 	var part = part_system_create(Part_moto)
-	var _dy = 312 - sprite_height/2
-	var _dx = 100 - sprite_width/2 
+	var _dy = 129 - sprite_height/2
+	var _dx = 53 - sprite_width/2 
 	part_system_position(part,x+_dx,y+_dy)
+	//part_system_position(part,100,100)
+	show_debug_message("je sois la ")
 		}
 }
